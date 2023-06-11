@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>PwC Proposal Engine</title>
+    <link rel="stylesheet" type="text/css" href="styles_preview.css">
+    <script src="Home_preview.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+    <script src="https://unpkg.com/pptxgenjs/dist/pptxgen.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/officegen/0.5.4/officegen.min.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" class="icon">
+    <h1>Proposal Engine</h1>
+  </header>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    
+    <div id="mySidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+          </a>
+          <a href="#" onclick="openPresentation('executive-summary')">Executive Summary
+          </a>
+          <a href="#" onclick="openPresentation('background')">Background
+          </a>
+          <a href="#" onclick="openPresentation('our-approach')">Our Approach
+          </a>
+          <a href="#" onclick="openPresentation('why-pwc')">Why PwC
+          </a>
+          <a href="#" onclick="openPresentation('scope')">Scope
+          </a>
+          <a href="#" onclick="openPresentation('credentials')">Credentials
+          </a>
+          <a href="#" onclick="openPresentation('team-structure')">Team Structure
+          </a>
+          <br/><br/>
+          <button class="gentempbtn" onclick="generateTemplate()">Generate Template</button>
+      </div>
+
+    <div id="main">
+        <img src="images/bgb.jpg">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
